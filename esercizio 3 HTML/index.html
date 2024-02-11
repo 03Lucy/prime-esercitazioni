@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registratione sito internet</title>
+</head>
+<body>
+    <form action="index.html">
+    
+        <h1>Registrazione sito internet</h1>
+        
+        <!--caselle di testo-->
+        <div><input type="text" placeholder="inserisci il tuo nome" minlength="2" maxlength="15" required></div>
+        <div><input type="text" placeholder="Inserisci il tuo cognome" minlength="2" maxlength="15" required></div>
+        <div><input type="email" placeholder="Inserisci la tua email" minlength="8" maxlength="20" required></div>
+
+        <!--Menù a tenda-->
+        <div><select required> 
+            <option value="opt 1"> Regione di appartenenza</option>
+            <option value="opt 2">Abruzzo</option>
+            <option value="opt 3">Basilicata</option>
+            <option value="opt 4">Calabria</option>
+            <option value="opt 5">Campania</option>
+            <option value="opt 6">Emilia Romagna</option>
+            <option value="opt 7">Friuli Venezia Giulia</option>
+            <option value="opt 8">Lazio</option>
+            <option value="opt 9">Liguria</option>
+            <option value="opt 10">Lombardia</option>
+            <option value="opt 11">Marche</option>
+            <option value="opt 12">Molise</option>
+            <option value="opt 13">Piemonte</option>
+            <option value="opt 14">Puglia</option>
+            <option value="opt 15">Sardegna</option>
+            <option value="opt 16">Sicilia</option>
+            <option value="opt 17">Toscana</option>
+            <option value="opt 18">Trentino Alto Adige</option>
+            <option value="opt 19">Umbria</option>
+            <option value="opt 20">Valle D'Aosta</option>
+            <option value="opt 21">Veneto</option>
+        </select></div>
+    
+        <!--caelle radio-->
+        <div required>
+            <input type="radio" name="age"> 0-18
+            <input type="radio" name="age"> 18+
+        </div>
+    
+        <!--caselle checkbox-->
+        <div><input type="checkbox" required>
+            <label >Accetta termini e condizioni essenziali <required></label></div>
+        <div><input type="checkbox">
+            <label>accetta termini e condizioni opzionali</label></div>
+    
+        <input type="submit">
+    </form>
+</body>
+</html>
