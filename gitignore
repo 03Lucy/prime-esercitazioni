@@ -1,0 +1,6 @@
+node_modules/
+environments/
+
+*.avi
+*.pdf
+*.exe
