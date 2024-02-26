@@ -1,5 +1,29 @@
 body {
     background-image: url(https://tse3.explicit.bing.net/th?id=OIP.Sa2XS7zVlSPKbEtRibse5gHaE8&pid=Api&P=0&h=180);
     background-size: cover;
+    text-align: center;
 }
 
+img{
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+}
+
+.titolo{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+hr{
+    border-color: white;
+    margin: 10px;
+}
+
+#unread {
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+}
