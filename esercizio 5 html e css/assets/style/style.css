@@ -51,3 +51,8 @@ hr{
     width: 68%;
     display: inline;
 }
+
+.footer{
+    text-align: center;
+    color: white;
+}
