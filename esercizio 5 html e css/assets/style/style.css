@@ -1,7 +1,9 @@
 body {
+    padding-right: 20%;
+    padding-left: 20%;
     background-image: url(https://tse3.explicit.bing.net/th?id=OIP.Sa2XS7zVlSPKbEtRibse5gHaE8&pid=Api&P=0&h=180);
     background-size: cover;
-    text-align: center;
+    
 }
 
 img{
@@ -26,4 +28,26 @@ hr{
     font-size: 25px;
     color: white;
     margin: 10px;
+}
+
+.contenitore{
+    width: 1500px;
+    margin: auto;
+}
+
+.row{
+    width: 900px;
+    background-color: white;
+    border-style: groove;
+    border-color: gray;
+}
+
+.subject{
+    width: 30%;
+    display: inline-block;
+}
+
+.body{
+    width: 68%;
+    display: inline;
 }
